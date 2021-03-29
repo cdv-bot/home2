@@ -18,6 +18,8 @@ function remo() {
 
 
 $(document).ready(function () {
+
+
   $(".icon_4").click(() => {
     if (key !== 4) {
       key = 4;
