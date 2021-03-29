@@ -18,6 +18,18 @@ function remo() {
 
 
 $(document).ready(function () {
+  // "grid-template-columns", "78,6% 21.3%"
+  $('.fa-minus').click(() => {
+    $('.App__content-box3').hide();
+    $('.App__content').css("grid-template-columns", "78.6% 21.3%");
+    $('.fa-chevron-right').show();
+  })
+
+  $('.fa-chevron-right').click(() => {
+    $('.App__content').css("grid-template-columns", "53.1% 21.9% 25%");
+    $('.fa-chevron-right').hide();
+    $('.App__content-box3').show();
+  })
 
 
   $(".icon_4").click(() => {
