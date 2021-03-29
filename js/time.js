@@ -5678,4 +5678,8 @@ $(document).ready(function () {
     let time = moment().format('LTS');
     $('#nameTime').html(time)
   }, 1000)
+
+  $('#logout_home').click(() => {
+    window.location = "/logins";
+  })
 })
